@@ -14,15 +14,15 @@ This application is divided into following modules
 
   # Admin Module
 
-    This module deals with addition and deletion of routes, buses available, pick up points, dropping points, bus codes, passenger details and bus details. He has the complete       control over the application. Only admin can perform these functionalities.
+   This module deals with addition and deletion of routes, buses available, pick up points, dropping points, bus codes, passenger details and bus details. He has the complete      control over the application. Only admin can perform these functionalities.
 
 # Bookings and Cancellation Module
 
-This module deals with the Search routes, Select bus, Select seats and pick up points, Provide information and payment gateway, Print booked ticket, Cancel the ticket. This module has been managed by admin and user has to enter the choice based on their requirements. 
+  This module deals with the Search routes, Select bus, Select seats and pick up points, Provide information and payment gateway, Print booked ticket, Cancel the ticket. This     module has been managed by admin and user has to enter the choice based on their requirements. 
 
 # User Module 
 
-This module deals with the selection of routes, bus and seats by the user. Only has the controls to book the tickets, he has to login and make his choice. Only user can do these functionalities. 
+  This module deals with the selection of routes, bus and seats by the user. Only has the controls to book the tickets, he has to login and make his choice. Only user can do       these functionalities. 
 
 # High Level Requirements
 
