@@ -60,6 +60,15 @@ This application is divided into following modules
 * You can choose a seat of your choice from the sitting arrangement and pay only what you should pay and nothing more. 
 
 
+# Disadvantages
+
+* You need internet access. Reliable internet access is required to check reservations and add bookings that are made over the phone.
+
+* You need to be ready for an influx of new customers. 
+
+* Not all online booking systems are created equal.
+
+
 
 
 
