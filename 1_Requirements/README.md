@@ -27,9 +27,29 @@ This module deals with the selection of routes, bus and seats by the user. Only 
 
 # High Level Requirements
 
-|`      `*ID|`                 `Description|`            `Status|
+|`      `ID|`                 `Description|`            `Status|
 | :- | :- | :- |
 |`    `HL01|` `User login details | Implemented |
 |`    `HL02|` `Booking the tickets | Implemented |
-|`    `HL03|` `Cancelations of tickets | Implemented |
+|`    `HL03|` `Cancellations of tickets | Implemented |
 |`    `HL04|` `Admin adding details | Implemented |
+
+# Low Level Requirements
+
+|`      `ID|`                 `Description|`            `Status|
+| :- | :- | :- |
+|LL01\_HL01|` `User login with his username and password| Implemented |
+|LL02\_HL01|` `Getting destinations details from user| Implemented |
+|LL03\_HL02|` `Booking the tickets based on the details user entered| Implemented |
+|LL04\_HL02|` `Adding the payment details| Implemented |
+|LL05\_HL03|` `Cancellations of tickets| Implemented |
+|LL06\_HL03|` `Refunding the payment| Implemented |
+|LL07\_HL04|` `Adding the new details in the database| Implemented |
+|LL08\_HL04|` `Deleting the details from the database| Implemented |
+
+
+
+
+
+
+
