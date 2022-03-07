@@ -2,6 +2,10 @@
 
 Travel industry is evolving day to day. As the industry evolves the need to digitalize all the transactions becomes need of the hour.The main objective of the Bus Ticket Booking System is to manage the details of Bus,Ticket,Booking,Agent,Seats. It manages all the information about Bus, Customer, Seats, Bus. This project which is implemented on Java platform helps to manage bus scheduling and bookings. This Bus Booking System is a easily deployable, integrated end-to-end system starting from searching bus routes to book them. The project includes information about buses, no. of seats available, occupancy, availability, days and time of operation, no. of buses from point ‘A’ to point ‘B’, Price ranges, automated report and bill generation etc.
 
+# Problem Statement 
+
+Nowadays the Travel industry has developed and become efficent everyday, but the many people deosn't have knowledge about these things. At present many people using offline mode for the booking system. The type of system being used at the counter is an internal system which is manually used in selling the bus tickets. The problems facing the company are that customers have to go to the counter to buy bus ticket or ask for bus schedule, customers will also have to queue up for a long time in order to secure a bus ticket and will also need to pay cash when they buy the bus ticket. We can overcome this issuse by using this project.
+
 # Bus Booking System Modules
 
 This application is divided into following modules
@@ -67,11 +71,4 @@ This application is divided into following modules
 * You need to be ready for an influx of new customers. 
 
 * Not all online booking systems are created equal.
-
-
-
-
-
-
-
 
