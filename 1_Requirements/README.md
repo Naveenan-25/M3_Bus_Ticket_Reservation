@@ -24,3 +24,12 @@ This module deals with the Search routes, Select bus, Select seats and pick up p
 # User Module 
 
 This module deals with the selection of routes, bus and seats by the user. Only has the controls to book the tickets, he has to login and make his choice. Only user can do these functionalities. 
+
+# High Level Requirements
+
+|`      `*ID|`                 `Description|`            `Status*|
+| :- | :- | :- |
+|`    `HL01|` `User login details | Implemented |
+|`    `HL02|` `Booking the tickets | Implemented |
+|`    `HL03|` `Cancelations of tickets | Implemented |
+|`    `HL04|` `Admin adding details | Implemented |
