@@ -46,6 +46,18 @@ This application is divided into following modules
 |LL07\_HL04|` `Adding the new details in the database| Implemented |
 |LL08\_HL04|` `Deleting the details from the database| Implemented |
 
+# Advantages
+
+
+* When you book tickets through a travel agency or a travel agent then you have to pay some additional amount as commission fee but if you book online you get commission free booking.
+
+* You can ask any sort of queries to them and they will answer in the best possible ways. They will also let you know about various bustickets offers so that you can get discounts on your bus booking.
+
+* Online shopping became popular because of this thing. You get lots of discount and coupon codes which help you save money while bus booking. Check today for mybustickets offers and mybustickets coupons to save more.
+
+* No hidden catch or charges are there. It is very simple to book online and you get an overview of the entire process.
+
+* You can choose a seat of your choice from the sitting arrangement and pay only what you should pay and nothing more. 
 
 
 
