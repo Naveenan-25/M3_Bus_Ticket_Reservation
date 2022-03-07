@@ -1,4 +1,0 @@
-# Module Description 
-# Admin Module
-This module deals with addition and deletion of routes, buses available, pick up points, dropping points, bus codes, passenger details and bus details. He has the complete control 
-over the application. Only admin can perform these functionalities.
