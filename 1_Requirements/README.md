@@ -27,7 +27,7 @@ This module deals with the selection of routes, bus and seats by the user. Only 
 
 # High Level Requirements
 
-|`      `*ID|`                 `Description|`            `Status*|
+|`      `*ID|`                 `Description|`            `Status|
 | :- | :- | :- |
 |`    `HL01|` `User login details | Implemented |
 |`    `HL02|` `Booking the tickets | Implemented |
