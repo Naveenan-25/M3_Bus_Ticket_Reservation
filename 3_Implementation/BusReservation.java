@@ -37,7 +37,8 @@ public class BusReservation{
     			System.out.println("** [2] Passengers                    **");
     			System.out.println("** [3] Billing                       **");
     			System.out.println("** [4] View                          **");
-    			System.out.println("** [5] Exit                          **");
+    			System.out.println("** [5] Cancelation                   **");
+                        System.out.println("** [6] Exit                          **");
     			System.out.println("***************************************");
     			System.out.println("***************************************\n");
     	
@@ -58,7 +59,7 @@ public class BusReservation{
     					System.out.println("** 4.)MYSORE        | Php500 |   "+available[4]+"   **");
     					System.out.println("** 5.)VADODARA      | Php1050|   "+available[5]+"   **");
     					System.out.println("***************************************");
-						System.out.println("***************************************\n");
+					System.out.println("***************************************\n");
     					System.out.println("PWD, STUDENT, & SENIOR CITIZEN with 20% DISCOUNT!!!\n");	
     					x=0;
 					}
@@ -70,7 +71,7 @@ public class BusReservation{
 						
 						
 						//display first the Destination Details//
-					System.out.println("***************************************");
+						System.out.println("***************************************");
     					System.out.println("**   DESTINATION   |  FARE  |  SEAT  **");
     					System.out.println("***************************************");
     					System.out.println("** 1.)BANGALORE    | Php600 |   "+available[1]+"   **");
@@ -217,7 +218,7 @@ public class BusReservation{
 								int s=1;
 								for(int b=0;b<z;b++){
 									if(search.equalsIgnoreCase(ticketS[b][0])){
-									System.out.println("***************************************");
+										System.out.println("***************************************");
 	    								System.out.println("**        PASSENGER'S DETAILS        **");
 	    								System.out.println("***************************************");
 	    								System.out.println("PASSENGER'S NAME: " + ticketS[b][0]);
@@ -225,7 +226,7 @@ public class BusReservation{
 	    								System.out.println("FARE PRICE: Php" + ticketD[b][0]);
 	    								System.out.println("NO. OF PASSENGERS: " + ticketI[b][0]);
 	    								System.out.println("NO. OF PASSENGERS WITH DISCOUNT: " + ticketI[b][1]);
-		 		   					System.out.println("***************************************");
+		 		   						System.out.println("***************************************");
 	    								System.out.println("***************************************");
 	    								s=0;
 										x=0;
@@ -293,7 +294,7 @@ public class BusReservation{
     		 		   	int s=1;
 							for(x=0; x<=z; x++){
 								if(search.equalsIgnoreCase(ticketS[x][0])){
-								System.out.println("***************************************");
+									System.out.println("***************************************");
     								System.out.println("**        PASSENGER'S DETAILS        **");
     								System.out.println("***************************************");
     								System.out.println("PASSENGER'S NAME: " + ticketS[x][0]);
@@ -325,11 +326,26 @@ public class BusReservation{
 							
 				    	}
 					}		
+
+                              else if(choice.equals("5")){
+						end=1;
+						x=0;
+                                     System.out.println("***************************************");
+	    			     System.out.println("**        Ticket Cancelation         **");
+				     System.out.println("***************************************");
+				     System.out.println("Your booking is cancelled!!!");
+                                     System.out.println("Your Fare will be Refunded shortly");
+                                     System.out.println("Thank You!");
+                                     System.out.println("Have a great day!!!");
+                                         
+
+					}
 					
-					else if(choice.equals("5")){
+					else if(choice.equals("6")){
 						end=1;
 						x=0;
 						System.out.println("Thank You!");
+                                                System.out.println("\nHave a great day!!!");
 					}
 				
 					else{
@@ -351,6 +367,7 @@ public class BusReservation{
     				}
     				else if (yn.equalsIgnoreCase("n")){
     					System.out.println("\nThank You!!!");
+				        System.out.println("\nHave a great day!!!");
     					break;
     				}
     				else{
