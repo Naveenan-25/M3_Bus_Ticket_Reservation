@@ -14,6 +14,7 @@ public class BusReservation{
     double change[] = new double[20];
     
     for(int i=1;i<4;){
+	    
 		System.out.print("Enter Username: ");
 		user = in.readLine();
 		System.out.print("Enter Password: ");
@@ -29,7 +30,9 @@ public class BusReservation{
     	if(user.equals("1") && password.equals("1")){
     	
     		for(int x=1; x==1;){
+			
     			//the MAIN MENU//
+			
     			System.out.println("********************************************");
     			System.out.println("** BUS RESERVATION AND TICKETING SYSTEM   **");
     			System.out.println("********************************************");
@@ -43,13 +46,16 @@ public class BusReservation{
     			System.out.println("***************************************\n");
     	
     			for(x=1; x==1;){
+				
 					System.out.print("ENTER CHOICE: ");
 					choice=in.readLine();
 					
 					//if CHOICE is "1" display the DESTINATION//
 					if (choice.equals("1")){
+						
 						//the DESTINATION DETAILS//
 						//display the "Destination", every destination "Fare", and the "Seat" available//
+						
     					System.out.println("***************************************");
     					System.out.println("**   DESTINATION   |  FARE  |  SEAT  **");
     					System.out.println("***************************************");
@@ -111,18 +117,23 @@ public class BusReservation{
     					//inputing of Destination//
     					//integers Only [1-5]//
     					for(x=1; x==1;){
+						
     						System.out.print("ENTER DESTINATION [number]: ");
     						to = Integer.parseInt(in.readLine());
     						
     						//if Inputed integers are "<1" or ">5", display error and go back to Inputing//
     						if(to<1 || to>5){
+							
     							System.out.println("Invalid Input!");
     							x=1;
     						}
     						//if available seat is eqaul to "Zero", display error and go back to Inputing//
     						for(int d=1; d<=5; d++){
+							
     							if(to==d){
+								
     								if(available[to]==0){
+									
     									System.out.println("Sorry, We don't have available seat!");
     									x=1;
     								}
@@ -140,13 +151,17 @@ public class BusReservation{
     					ticketD[z][0] = fare[to];
     					
     					//inputing for Number of Passenger's//
+						
     					for(x=1; x==1;){
+						
     					System.out.print("HOW MANY PASSENGERS ARE YOU?: ");
     					ticketI[z][0] = Integer.parseInt(in.readLine());
     		
     						//subtract the available seat by the the number inputed//
     						for(int p=1; p<=5; p++){
+							
     							if(to==p){
+								
     								print=1;
     								available[to] = available[to]-ticketI[z][0];
     								
@@ -185,8 +200,10 @@ public class BusReservation{
     					}
     		
     		
-    					//print out of passengers details....
+    					//print out of passengers details....//
+						
     					if(print==1){
+						
     						System.out.println("\n***************************************");
     						System.out.println("**        PASSENGER'S DETAILS        **");
     						System.out.println("*****************************************");
@@ -207,6 +224,7 @@ public class BusReservation{
 					}
 					
 					else if (choice.equals("3")){
+						//Bill calculation for the traveller and also calculating the discounts and generating the bill for customer....//
 			          
 			            
 						for(x=1; x==1;){
@@ -217,8 +235,9 @@ public class BusReservation{
 								
 								int s=1;
 								for(int b=0;b<z;b++){
+									
 									if(search.equalsIgnoreCase(ticketS[b][0])){
-										System.out.println("***************************************");
+									System.out.println("***************************************");
 	    								System.out.println("**        PASSENGER'S DETAILS        **");
 	    								System.out.println("***************************************");
 	    								System.out.println("PASSENGER'S NAME: " + ticketS[b][0]);
@@ -226,7 +245,7 @@ public class BusReservation{
 	    								System.out.println("FARE PRICE: Php" + ticketD[b][0]);
 	    								System.out.println("NO. OF PASSENGERS: " + ticketI[b][0]);
 	    								System.out.println("NO. OF PASSENGERS WITH DISCOUNT: " + ticketI[b][1]);
-		 		   						System.out.println("***************************************");
+		 		   					System.out.println("***************************************");
 	    								System.out.println("***************************************");
 	    								s=0;
 										x=0;
@@ -259,6 +278,7 @@ public class BusReservation{
 									}
 								}
 								if (s==1){
+									
 									System.out.println("\nPASSENGER'S NAME NOT FOUND!\n");
 									for(int q=1; q==1;){
 									
@@ -293,8 +313,10 @@ public class BusReservation{
     		    
     		 		   	int s=1;
 							for(x=0; x<=z; x++){
+								
 								if(search.equalsIgnoreCase(ticketS[x][0])){
-									System.out.println("***************************************");
+									
+								System.out.println("***************************************");
     								System.out.println("**        PASSENGER'S DETAILS        **");
     								System.out.println("***************************************");
     								System.out.println("PASSENGER'S NAME: " + ticketS[x][0]);
@@ -303,11 +325,14 @@ public class BusReservation{
     								System.out.println("NO. OF PASSENGERS: " + ticketI[x][0]);
     								System.out.println("NO. OF PASSENGERS WITH DISCOUNT: " + ticketI[x][1]);
     								System.out.println("TOTAL FARE PRICE: Php " + ticketD[x][2]);
+									
     								if(ticketS[x][2].equals("x")){
+									
     									System.out.println("PAY: Php " +pay[x]);
     									System.out.println("CHANGE: Php " +change[x]);
     									System.out.println("STATUS: PAID");
     								}
+									
     								else{
     									System.out.println("STATUS: NOT PAID");
     								}
@@ -365,6 +390,7 @@ public class BusReservation{
     					x=1;
     					y=0;
     				}
+				
     				else if (yn.equalsIgnoreCase("n")){
     					System.out.println("\nThank You!!!");
 				        System.out.println("\nHave a great day!!!");
