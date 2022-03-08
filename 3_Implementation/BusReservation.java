@@ -70,7 +70,7 @@ public class BusReservation{
 						
 						
 						//display first the Destination Details//
-						System.out.println("***************************************");
+					System.out.println("***************************************");
     					System.out.println("**   DESTINATION   |  FARE  |  SEAT  **");
     					System.out.println("***************************************");
     					System.out.println("** 1.)BANGALORE    | Php600 |   "+available[1]+"   **");
@@ -79,7 +79,7 @@ public class BusReservation{
     					System.out.println("** 4.)MYSORE       | Php500 |   "+available[4]+"   **");
     					System.out.println("** 5.)VADODARA     | Php1050|   "+available[5]+"   **");
     					System.out.println("***************************************");
-						System.out.println("***************************************\n");
+					System.out.println("***************************************\n");
     					System.out.println("PWD, STUDENT, & SENIOR CITIZEN with 20% DISCOUNT!!!\n");
     					
     					if((available[1]==0)&&(available[2]==0)&&(available[3]==0)&&(available[4]==0)&&(available[5]==0)){
@@ -217,7 +217,7 @@ public class BusReservation{
 								int s=1;
 								for(int b=0;b<z;b++){
 									if(search.equalsIgnoreCase(ticketS[b][0])){
-										System.out.println("***************************************");
+									System.out.println("***************************************");
 	    								System.out.println("**        PASSENGER'S DETAILS        **");
 	    								System.out.println("***************************************");
 	    								System.out.println("PASSENGER'S NAME: " + ticketS[b][0]);
@@ -225,7 +225,7 @@ public class BusReservation{
 	    								System.out.println("FARE PRICE: Php" + ticketD[b][0]);
 	    								System.out.println("NO. OF PASSENGERS: " + ticketI[b][0]);
 	    								System.out.println("NO. OF PASSENGERS WITH DISCOUNT: " + ticketI[b][1]);
-		 		   						System.out.println("***************************************");
+		 		   					System.out.println("***************************************");
 	    								System.out.println("***************************************");
 	    								s=0;
 										x=0;
@@ -293,7 +293,7 @@ public class BusReservation{
     		 		   	int s=1;
 							for(x=0; x<=z; x++){
 								if(search.equalsIgnoreCase(ticketS[x][0])){
-									System.out.println("***************************************");
+								System.out.println("***************************************");
     								System.out.println("**        PASSENGER'S DETAILS        **");
     								System.out.println("***************************************");
     								System.out.println("PASSENGER'S NAME: " + ticketS[x][0]);
