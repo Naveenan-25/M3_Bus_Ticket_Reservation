@@ -189,7 +189,7 @@ public class BusReservation{
     					if(print==1){
     						System.out.println("\n***************************************");
     						System.out.println("**        PASSENGER'S DETAILS        **");
-    						System.out.println("***************************************");
+    						System.out.println("*****************************************");
     						System.out.println("PASSENGER'S NAME: " + ticketS[z][0]);
     						System.out.println("PASSENGER'S DESTINATION : " + ticketS[z][1]);
     						System.out.println("FARE PRICE: Php " + ticketD[z][0]);
@@ -328,8 +328,8 @@ public class BusReservation{
 					}		
 
                               else if(choice.equals("5")){
-						end=1;
-						x=0;
+						
+						x=1;
                                      System.out.println("***************************************");
 	    			     System.out.println("**        Ticket Cancelation         **");
 				     System.out.println("***************************************");
