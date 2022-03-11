@@ -1,7 +1,9 @@
 import java.io.*;
+
 public class BusReservation{
 
     public static void main(String args[]) throws IOException {
+	    
     BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
     
     String user,password,yn,search,again,choice;
@@ -90,6 +92,7 @@ public class BusReservation{
     					System.out.println("PWD, STUDENT, & SENIOR CITIZEN with 20% DISCOUNT!!!\n");
     					
     					if((available[1]==0)&&(available[2]==0)&&(available[3]==0)&&(available[4]==0)&&(available[5]==0)){
+						
     						System.out.println("Sorry, We don't  have available seats for all Destination!");
     						x=0;
     						
@@ -99,7 +102,9 @@ public class BusReservation{
     					
     					//inputing of Passenger's Name//
     					else{
+						
     					for(x=1; x==1;){
+						
     						System.out.print("\nENTER PASSENGER'S NAME: ");
     						ticketS[z][0] = in.readLine();
 							
@@ -185,6 +190,7 @@ public class BusReservation{
     					
     					//inputing for Number of Discounted Passenger's//
     					for(x=1;x==1;){
+						
     						System.out.print("HOW MANY PASSENGERS HAVE DISCOUNT?: ");
     						ticketI[z][1] = Integer.parseInt(in.readLine());
     					
@@ -226,6 +232,7 @@ public class BusReservation{
 				       //if CHOICE is "3" proceed to Billing and amount calculation//
 				
 					else if (choice.equals("3")){
+						
 						//Bill calculation for the traveller and also calculating the discounts and generating the bill for customer....//
 			          
 			            
@@ -279,6 +286,7 @@ public class BusReservation{
 										}
 									}
 								}
+							
 								if (s==1){
 									
 									System.out.println("\nPASSENGER'S NAME NOT FOUND!\n");
@@ -290,6 +298,7 @@ public class BusReservation{
 									if(again.equalsIgnoreCase("y")){
 										q=0;
 									}
+										
 									else if (again.equalsIgnoreCase("n")){
 										q=0;
 										x=0;
@@ -340,6 +349,7 @@ public class BusReservation{
     								else{
     									System.out.println("STATUS: NOT PAID");
     								}
+									
     								System.out.println("***************************************");
     								System.out.println("***************************************");
     								s=0;
@@ -349,6 +359,7 @@ public class BusReservation{
 						
 							
 							if (s==1){
+								
 								System.out.println("Passenger's Name not found!");
 								sx++;
 							}
@@ -373,6 +384,7 @@ public class BusReservation{
 					}
 					
 					else if(choice.equals("6")){
+						
 						end=1;
 						x=0;
 						System.out.println("Thank You!");
@@ -386,7 +398,9 @@ public class BusReservation{
     			}
     	
     			for(y=1; y==1;){
+				
     				if(end==1){
+					
     					break;
     				}
     				System.out.print("Do you want another transaction? [Y/N]: ");
@@ -398,6 +412,7 @@ public class BusReservation{
     				}
 				
     				else if (yn.equalsIgnoreCase("n")){
+					
     					System.out.println("\nThank You!!!");
 				        System.out.println("\nHave a great day!!!");
     					break;
