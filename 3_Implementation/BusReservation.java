@@ -29,7 +29,7 @@ public class BusReservation{
   		}
     
     	//if user and password are correct proceed to MAIN MENU//
-    	if(user.equals("1") && password.equals("1")){
+    	if(user.equals("Naveen") && password.equals("12345")){
     	
     		for(int x=1; x==1;){
 			
