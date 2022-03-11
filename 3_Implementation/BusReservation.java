@@ -223,6 +223,8 @@ public class BusReservation{
     					}
 					}
 					
+				       //if CHOICE is "3" proceed to Billing and amount calculation//
+				
 					else if (choice.equals("3")){
 						//Bill calculation for the traveller and also calculating the discounts and generating the bill for customer....//
 			          
@@ -303,6 +305,8 @@ public class BusReservation{
 						}
 			            
 					}
+				
+				        //if CHOICE is "4" proceed to Passenger's details//
 					
 					else if (choice.equals("4")){
 						
@@ -350,7 +354,9 @@ public class BusReservation{
 							}
 							
 				    	}
-					}		
+					}	
+				
+				//if CHOICE is "5" proceed to Ticket Cancelation//
 
                               else if(choice.equals("5")){
 						
