@@ -1,12 +1,12 @@
 # Introduction
 
-Travel industry is evolving day to day. As the industry evolves the need to digitalize all the transactions becomes need of the hour.The main objective of the Bus Ticket Booking System is to manage the details of Bus,Ticket,Booking,Agent,Seats. It manages all the information about Bus, Customer, Seats, Bus. This project which is implemented on Java platform helps to manage bus scheduling and bookings. This Bus Booking System is a easily deployable, integrated end-to-end system starting from searching bus routes to book them. The project includes information about buses, no. of seats available, occupancy, availability, days and time of operation, no. of buses from point ‘A’ to point ‘B’, Price ranges, automated report and bill generation etc.
+Travel industry is evolving day to day. As the industry evolves the need to digitalize all the transactions becomes need of the hour.The main objective of the Train Ticket Booking System is to manage the details of Train,Ticket,Booking,Agent,Seats. It manages all the information about train, Customer, Seats. This project which is implemented on Java platform helps to manage train scheduling and bookings. This train Booking System is a easily deployable, integrated end-to-end system starting from searching train routes to book them. The project includes information about train, no. of seats available, occupancy, availability, days and time of operation, no. of train from point ‘A’ to point ‘B’, Price ranges, automated report and bill generation etc.
 
 # Problem Statement 
 
-Nowadays the Travel industry has developed and become efficent everyday, but the many people deosn't have knowledge about these things. At present many people using offline mode for the booking system. The type of system being used at the counter is an internal system which is manually used in selling the bus tickets. The problems facing the company are that customers have to go to the counter to buy bus ticket or ask for bus schedule, customers will also have to queue up for a long time in order to secure a bus ticket and will also need to pay cash when they buy the bus ticket. We can overcome this issuse by using this project.
+Nowadays the Travel industry has developed and become efficent everyday, but the many people deosn't have knowledge about these things. At present many people using offline mode for the booking system. The type of system being used at the counter is an internal system which is manually used in selling the train tickets. The problems facing the company are that customers have to go to the counter to buy train ticket or ask for train schedule, customers will also have to queue up for a long time in order to secure a train ticket and will also need to pay cash when they buy the train ticket. We can overcome this issuse by using this project.
 
-# Bus Booking System Modules
+# Train Booking System Modules
 
 This application is divided into following modules
 
@@ -18,15 +18,15 @@ This application is divided into following modules
 
   # Admin Module
 
-   This module deals with addition and deletion of routes, buses available, pick up points, dropping points, bus codes, passenger details and bus details. He has the complete      control over the application. Only admin can perform these functionalities.
+   This module deals with addition and deletion of routes, buses available, pick up points, dropping points, bus codes, passenger details and train details. He has the complete      control over the application. Only admin can perform these functionalities.
 
 # Bookings and Cancellation Module
 
-  This module deals with the Search routes, Select bus, Select seats and pick up points, Provide information and payment gateway, Print booked ticket, Cancel the ticket. This     module has been managed by admin and user has to enter the choice based on their requirements. 
+  This module deals with the Search routes, Select train, Select seats and pick up points, Provide information and payment gateway, Print booked ticket, Cancel the ticket. This     module has been managed by admin and user has to enter the choice based on their requirements. 
 
 # User Module 
 
-  This module deals with the selection of routes, bus and seats by the user. Only has the controls to book the tickets, he has to login and make his choice. Only user can do       these functionalities. 
+  This module deals with the selection of routes, types of train and seats by the user. Only has the controls to book the tickets, he has to login and make his choice. Only user can do these functionalities. 
 
 # High Level Requirements
 
@@ -57,7 +57,7 @@ This application is divided into following modules
 
 * You can ask any sort of queries to them and they will answer in the best possible ways. They will also let you know about various bustickets offers so that you can get discounts on your bus booking.
 
-* Online shopping became popular because of this thing. You get lots of discount and coupon codes which help you save money while bus booking. Check today for mybustickets offers and mybustickets coupons to save more.
+* Online shopping became popular because of this thing. You get lots of discount and coupon codes which help you save money while train ticket booking. 
 
 * No hidden catch or charges are there. It is very simple to book online and you get an overview of the entire process.
 
