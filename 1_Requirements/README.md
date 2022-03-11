@@ -1,10 +1,10 @@
 # Introduction
 
-Travel industry is evolving day to day. As the industry evolves the need to digitalize all the transactions becomes need of the hour.The main objective of the Train Ticket Booking System is to manage the details of Train,Ticket,Booking,Agent,Seats. It manages all the information about train, Customer, Seats. This project which is implemented on Java platform helps to manage train scheduling and bookings. This train Booking System is a easily deployable, integrated end-to-end system starting from searching train routes to book them. The project includes information about train, no. of seats available, occupancy, availability, days and time of operation, no. of train from point ‘A’ to point ‘B’, Price ranges, automated report and bill generation etc.
+The railway reservation system facilitates the passengers to enquiry about the trains available on the basis of source and destination, booking and cancellation of tickets, enquiry about the status of the booked ticket, etc. The aim of case study is to design and develop a data base maintaining records of different trains, train status and passengers.This project contains introduction to the railways reservation system. It is the computerized system of reserving the seats of train seats in advance.In our country India, there are number of counters for the reservation of the seats and one can easily make reservations and get tickets. Railway reservation system, has described above, can lead to error free, secure, reliable and fast management system. It can assist the user to concentrate on their other activities rather to concentrate on the record keeping. Thus it will help organization it better utilization of resources.Administrator of the project, with the help of a password, can enter new train record, display all train records, modify train records and delete train records. 
 
 # Problem Statement 
 
-Nowadays the Travel industry has developed and become efficent everyday, but the many people deosn't have knowledge about these things. At present many people using offline mode for the booking system. The type of system being used at the counter is an internal system which is manually used in selling the train tickets. The problems facing the company are that customers have to go to the counter to buy train ticket or ask for train schedule, customers will also have to queue up for a long time in order to secure a train ticket and will also need to pay cash when they buy the train ticket. We can overcome this issuse by using this project.
+Nowadays the Travel industry has developed and become efficent everyday, but the many people deosn't have knowledge about these things. At present many people using offline mode for the train ticket booking system. The type of system being used at the counter is an internal system which is manually used in selling the train tickets. The problems facing the company are that customers have to go to the counter to buy train ticket or ask for train schedule, customers will also have to queue up for a long time in order to secure a train ticket and will also need to pay cash when they buy the train ticket. We can overcome this issuse by using this project.
 
 # Train Booking System Modules
 
@@ -55,7 +55,7 @@ This application is divided into following modules
 
 * When you book tickets through a travel agency or a travel agent then you have to pay some additional amount as commission fee but if you book online you get commission free booking.
 
-* You can ask any sort of queries to them and they will answer in the best possible ways. They will also let you know about various bustickets offers so that you can get discounts on your bus booking.
+* You can ask any sort of queries to them and they will answer in the best possible ways. They will also let you know about various bustickets offers so that you can get discounts on your ticket booking.
 
 * Online shopping became popular because of this thing. You get lots of discount and coupon codes which help you save money while train ticket booking. 
 
